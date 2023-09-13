@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.page-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-color: #f3f3f3;
+}
+
+.pokemon-card {
+    width: 1250px;
+    height: 475px;
+    background: linear-gradient(135deg, #f3f3f3 0%, #f9f9f9 100%);
+    border-radius: 200px 0px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.gauche {
+    display: flex;
+    width: 45%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+}
+
+.gauche img {
+    width: 300px;
+    height: 300px;
+    border-radius: 229.5px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+    background: cover no-repeat, rgba(255, 255, 255, 0.75);
+    flex-shrink: 0;
+}
+
+.info-breed div {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.info-breed .info {
+    font-size: 15px;
+    color: #000000;
+}
+
+.info-breed .data {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666666;
+}
+
+ul li {
+    display: flex;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.reservation {
+    border-top: 2px solid #000;
+    padding-top: 20px;
+}
+
+.last-info .breedeur {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.last-info .breedeur .info {
+    font-size: 15px;
+    color: #000000;
+}
+
+.last-info .breedeur .data {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-description .input-container input {
+    font-family: 'Press Start 2P', cursive;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.page-description button {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(0, 0, 0);
+    background: rgb(218, 218, 218);
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.page-description button:hover {
+    box-shadow: 0px 15px 20px rgba(50, 50, 93, 0.25), 0px 5px 5px rgba(0, 0, 0, 0.22);
+    transform: translateY(-7px);
+}
+
+progress {
+    margin-left: 20px;
+    border-radius: 4px;
+    width: 300px;
+    height: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(223, 223, 223);
+    border-radius: 7px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(1, 157, 141);
+    border-radius: 7px;
+}
+
+progress::-moz-progress-bar {
+    background-color: rgba(1, 157, 141);
+    border-radius: 7px;
+}
+
+.normal {
+    background-color: #A8A77A;
+}
+
+.fire {
+    background-color: #EE8130;
+}
+
+.water {
+    background-color: #6390F0;
+}
+
+.electric {
+    background-color: #F7D02C;
+}
+
+.grass {
+    background-color: #7AC74C;
+}
+
+.ice {
+    background-color: #96D9D6;
+}
+
+.fighting {
+    background-color: #C22E28;
+}
+
+.poison {
+    background-color: #A33EA1;
+}
+
+.ground {
+    background-color: #E2BF65;
+}
+
+.flying {
+    background-color: #A98FF3;
+}
+
+.psychic {
+    background-color: #F95587;
+}
+
+.bug {
+    background-color: #A6B91A;
+}
+
+.rock {
+    background-color: #B6A136;
+}
+
+.ghost {
+    background-color: #735797;
+}
+
+.dragon {
+    background-color: #6F35FC;
+}
+
+.dark {
+    background-color: #705746;
+}
+
+.steel {
+    background-color: #B7B7CE;
+}
+
+.fairy {
+    background-color: #D685AD;
+}

@@ -1,0 +1,70 @@
+.header {
+    position: fixed;
+    display: flex;
+    height: auto;
+    padding: 14px 175px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    background: rgba(255, 255, 255, 0.905);
+    width: -webkit-fill-available;
+    z-index: 999;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #019D8D;
+    border-radius: 8px;
+}
+
+.header .Logo img {
+    width: 110px;
+    height: 110px;
+    flex-shrink: 0;
+    border-radius: 250px;
+}
+
+.header .Menu {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.header .Menu .nav {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 16px;
+}
+
+.header .Buttons {
+    display: inline-flex;
+    padding: 15px 46px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 99px;
+    border: 2px solid #FFF;
+    background: #3450E7;
+    text-decoration: none;
+}
+
+.header .Buttons .discord {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}

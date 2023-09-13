@@ -1,0 +1,136 @@
+footer * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcfcfc;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    padding-top: 40px;
+    color: #fff;
+}
+
+footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer .footer-content h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+footer .footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 12px;
+    color: #cacdd2;
+}
+
+footer .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+footer .socials li {
+    margin: 0 10px;
+}
+
+footer .socials a {
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+
+footer .socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+
+footer .socials a:hover i {
+    color: aqua;
+}
+
+footer .footer-bottom {
+    background: #000;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+footer .footer-bottom p {
+    float: left;
+    font-size: 12px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+footer .footer-bottom p a {
+    color: #44bae8;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer .footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+footer .footer-menu {
+    float: right;
+
+}
+
+footer .footer-menu ul {
+    display: flex;
+}
+
+footer .footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+footer .footer-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+}
+
+footer .footer-menu ul li a:hover {
+    color: #27bcda;
+}
+
+@media (max-width:500px) {
+    footer .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
